@@ -9,6 +9,15 @@
 ## Even Numbers (1 to 100) Output
 ![Even Numbers Output](Screenshots/even_numbers_1_to_100.png)
 
+## Right Half Pyramid Output
+![Right Half Pyramid](Screenshots/inverted_pyramid.png)
+
+## Full Pyramid Output
+![Full Pyramid](Screenshots/full_pyramid1.png)
+## Full Pyramid Output
+![Full Pyramid](Screenshots/odd_number.png)
+
+
 # Cloud Computing with DevOps Practical
 
 ## Student Information
