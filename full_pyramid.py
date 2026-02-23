@@ -1,26 +1,30 @@
-# Star Pyramid
+# Star Pyramid (Center)
 
 rows = 5
 
 for i in range(1, rows+1):
+
+    # Print spaces (for center alignment)
+    print(" " * (rows - i), end="")
+
+    # Print stars
     for j in range(i):
-        print("*", end=" ")
+        print("* ", end="")
+
     print()
 
 
+# Alphabet Inverted Pyramid (Center)
 
+letters = ["A","B","C","D","E"]
 
+for i in range(5,0,-1):
 
-# Alphabet Inverted Pyramid
+    # Print spaces
+    print(" " * (5 - i), end="")
 
-for i in range(rows,0,-1):
-
-    ch='A'
-
+    # Print alphabets
     for j in range(i):
-
-        print(ch,end=" ")
-
-        ch=chr(ord(ch)+1)
+        print(letters[j], end=" ")
 
     print()
